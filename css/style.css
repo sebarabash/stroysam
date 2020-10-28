@@ -542,6 +542,56 @@ select {
      object-position: top center;
 }
 
+/*//////////////////////////////// brands /////////////////////////////////////*/
+/* Слайдер */
+/* Слайдер запущен */
+/* Слайдер с точками */
+/* Ограничивающая оболочка */
+/* Лента слайдов */
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Слайд */
+/* Слайд активный (показывается) */
+/* Слайд основной */
+/* Слайд по центру */
+/* Клонированный слайд */
+/* Стрелка */
+/* Стрелка влево */
+/* Стрелка вправо */
+/* Стрелка не активная */
+/* Точки (булиты) */
+/* Активная точка */
+/* Элемент точки */
+/**/
+.brands__slider {
+  width: 100%;
+}
+
+.brands__item {
+  width: 100px;
+  height: 200px;
+}
+
+.brands__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  font-size: 35px;
+  line-height: 45px;
+  margin-bottom: 50px;
+}
+
 /*//////////////////////////////// footer /////////////////////////////////////*/
 .footer {
   background-color: rgba(51, 51, 51, 0.5);
