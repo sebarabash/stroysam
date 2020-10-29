@@ -572,8 +572,8 @@ select {
 }
 
 .brands__item {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 100px;
 }
 
 .brands__title {
@@ -590,6 +590,10 @@ select {
   font-size: 35px;
   line-height: 45px;
   margin-bottom: 50px;
+}
+
+.draggable {
+  background-color: #ffffff;
 }
 
 /*//////////////////////////////// footer /////////////////////////////////////*/
